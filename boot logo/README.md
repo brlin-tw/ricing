@@ -2,7 +2,7 @@
 Source: [Reddit](https://www.reddit.com/r/thinkpad/comments/a57xhc/guide_custom_boot_logo_on_a_t480/)
 
 ### Make a BIOS update that contains the new logo 
-- First we need the BIOS upadate utility ISO file from the [Lenovo site](https://pcsupport.lenovo.com/de/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t470/downloads#).  
+- First we need the BIOS update utility ISO file from the [Lenovo site](https://pcsupport.lenovo.com/de/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t470/downloads#).  
 Set your model and set the filter for components -> BIOS/UEFI.  
 Go to the entry that says `(Utility & Bootable CD)` and download the `BIOS Update (Bootable CD)`
 - Then extract the iso with `geteltorito -o bios.img n24ur09w.iso`
@@ -12,7 +12,7 @@ Go to the entry that says `(Utility & Bootable CD)` and download the `BIOS Updat
 - Boot from the stick and make the BIOS update
 
 ### Make a logo image
-You can use [mine](arch_logo.jpg). I created it from the same logo as my plymout theme ([arch-beat
+You can use [mine](arch_logo.jpg). I created it from the same logo as my plymouth theme ([arch-beat
 ](https://github.com/nenad/arch-beat))  
 It will look like that:
 ![](arch_logo_preview.png)
